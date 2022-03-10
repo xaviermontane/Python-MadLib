@@ -1,7 +1,7 @@
 """
 -------------------------------------------------------------------------------
-Name:		mad_lib_assignment.py
-Purpose:	a description of your program
+Name:		madlib.py
+Purpose:	Mad Lib Game
 
 Author:		Montane.X
 
@@ -11,16 +11,16 @@ Created:	01/03/2022
 
 f = open("story.txt")
 story = f.read()
-# Opens the .txt file and it's now ready to be printed.
+# Opens the .txt file
 
 print(
     "\nWelcome to the Mad Lib game - Come up with words to fill in the blanks for the story\n"
 )
 print("\t\t\t\tTour The Campus\n")
 print(story)
-# Introduction to the game.
+# Introduction to the game
 print(" ")
-# Empty string for spacing purposes.
+# Empty string for spacing purposes
 
 name1 = input("Enter a name: ")
 adj1 = input("Enter an adjective: ")
@@ -39,7 +39,7 @@ adj3 = input("Enter an adjective: ")
 adj4 = input("Enter an adjective: ")
 plur = input("Enter a plural noun: ")
 verb2 = input("Enter a verb: ")
-# Variables.
+# Variables
 
 print(" ")
 print(
@@ -78,4 +78,4 @@ print(
     verb2,
     "with us today.\n",
 )
-# Final output, all user inputs are printed and replace the blank spaces.
+# Final output, all user inputs are printed and replace the blank spaces
